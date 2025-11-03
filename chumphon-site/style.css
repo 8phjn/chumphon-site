@@ -1,0 +1,82 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* หน้า Login */
+.login-bg {
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.login-box {
+  background: rgba(255,255,255,0.15);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+.login-box input {
+  padding: 10px;
+  margin: 8px;
+  border: none;
+  border-radius: 8px;
+  width: 200px;
+}
+.login-box button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #00c3ff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* หน้าแสดงสถานที่ */
+.tour-bg {
+  background: #f0f8ff;
+  padding: 20px;
+}
+.card {
+  background: white;
+  display: inline-block;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  width: 250px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* หน้าแสดงรายละเอียด */
+.detail-bg {
+  background: #fffbea;
+  padding: 20px;
+}
+.detail-bg img {
+  width: 80%;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #0078ff;
+  color: white;
+  cursor: pointer;
+}
